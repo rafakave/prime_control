@@ -11,3 +11,4 @@ Criar Email
 Cenario: teste de criacao de email
     ${test}  Criar Email  billy  graham    99
     Log To Console  \nImprimindo email: ${test}
+    #resultado Imprimindo email: billy_graham_99@robot.com
